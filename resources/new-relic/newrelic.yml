@@ -13,7 +13,7 @@ common: &default_settings
   # You must specify the license key associated with your New Relic
   # account.  This key binds your Agent's data to your account in the
   # New Relic service.
-  license_key: ''
+  license_key: '366ad1c39721f328781ff89cfac714174fbddc88'
 
   # Agent Enabled
   # Use this setting to force the agent to run or not run.
@@ -26,7 +26,7 @@ common: &default_settings
   # This provides a finer-grained performance breakdown for
   # web apps in New Relic.
   # Default is false.
-  enable_auto_app_naming: false
+  enable_auto_app_naming: true
 
   # Set to true to enable component-based transaction naming.
   # Set to false to use the URI of a web request as the name of the transaction.
