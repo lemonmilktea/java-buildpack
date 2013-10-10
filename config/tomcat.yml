@@ -16,7 +16,7 @@
 # Configuration for the Tomcat container
 ---
 version: 7.0.+
-repository_root: "http://github.com/bagelswitch/cf-tomcat/blob/master/tomcat-7.0.42.tar.gz?raw=true"
+repository_root: "http://github.com/bagelswitch/cf-tomcat/tomcat"
 support:
   version: 1.1.+
-  repository_root: "http://download.pivotal.io.s3.amazonaws.com/tomcat-buildpack-support"
+  repository_root: "http://github.com/bagelswitch/cf-tomcat/tomcat-buildpack-support"
